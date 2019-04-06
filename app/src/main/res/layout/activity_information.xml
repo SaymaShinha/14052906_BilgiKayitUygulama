@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InformationActivity">
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TableRow>
+            <TextView
+                android:layout_width="360dp"
+                android:layout_height="35dp"
+                android:textSize="16sp"
+                android:id="@+id/name"
+                android:text="@string/ad"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="360dp"
+                android:layout_height="35dp"
+                android:id="@+id/surname"
+                android:text="@string/soyad"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="360dp"
+                android:layout_height="35dp"
+                android:id="@+id/TcKimlikNo"
+                android:text="@string/tc_kimlikno"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="360dp"
+                android:layout_height="35dp"
+                android:id="@+id/telephone"
+                android:text="@string/telefon"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="360dp"
+                android:layout_height="35dp"
+                android:id="@+id/Email"
+                android:text="@string/e_mail"/>
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:id="@+id/ara_button"
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp"
+                android:text="@string/ara"
+                android:onClick="Call"/>
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:id="@+id/e-mail_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp"
+                android:text="@string/e_mail"
+                android:onClick="SendEmail"/>
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:id="@+id/ders-liste_button"
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp"
+                android:text="@string/ders_liste"
+                android:onClick="DersListe"/>
+        </TableRow>
+
+        <TableRow>
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recyclerview"
+                android:scrollbars="none"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </android.support.v7.widget.RecyclerView>
+        </TableRow>
+
+    </TableLayout>
+</ScrollView>

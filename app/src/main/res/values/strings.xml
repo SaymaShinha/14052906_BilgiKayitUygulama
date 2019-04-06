@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">14052906_BilgiKayıtUygulaması</string>
+    <string name="login">Login</string>
+    <string name="kullanc_adı">Kullancı Adı</string>
+    <string name="password">Password</string>
+    <string name="cancel">Clean</string>
+    <string name="save">Save</string>
+    <string name="ad">Ad</string>
+    <string name="soyad">Soyad</string>
+    <string name="tc_kimlikno">TC KimlikNo</string>
+    <string name="telefon">Telefon</string>
+    <string name="e_mail">E-mail</string>
+    <string name="ara">Ara</string>
+    <string name="ders_liste">Ders Liste</string>
+    <string name="admin">Admin</string>
+    <string name="ders">Ders</string>
+    <string name="ogrencisayi">OgrenciSayi</string>
+    <string name="dersnoteortalama">DersNoteOrtalama</string>
+</resources>
